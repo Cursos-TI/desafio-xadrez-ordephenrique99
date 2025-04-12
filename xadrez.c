@@ -2,7 +2,7 @@
 
 int main() {
  
-    int torre = 5, bispo = 5, rainha = 8;       //VÁRIAVÉS PARA DEFINIR QUANTIDADE DE MOVIMENTOS
+    int torre = 5, bispo = 5, rainha = 8, cavalo = 3;       //VÁRIAVÉS PARA DEFINIR QUANTIDADE DE MOVIMENTOS
     int movimentos = 1;                         //VÁRIAVEL CONTROLE DE MOVIMENTOS E INCREMENTO
  
     //WHILE - MOVIMENTOS DA TORRE
@@ -26,5 +26,13 @@ int main() {
         printf("Movimento Rainha %d - ESQUERDA\n", movimentos); //PRINT O TEXTO COM NÚMERO DO MOVIMENTO E DIREÇÃO
     }
 
+    printf("\n");       //PULA LINHA PARA DIVIDIR APRESENTAÇÃO DE MOVIMENTOS
+    for(movimentos=1;movimentos<=cavalo;movimentos++){
+        while(movimentos<=2){
+            printf("Movimento CAVALO %d - BAIXO\n", movimentos);
+            movimentos++;
+        }
+        printf("Movimento CAVALO %d - DIREITA\n", movimentos);
+    }
     return 0;
 }
