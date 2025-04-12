@@ -27,12 +27,12 @@ int main() {
     }
 
     printf("\n");       //PULA LINHA PARA DIVIDIR APRESENTAÇÃO DE MOVIMENTOS
-    for(movimentos=1;movimentos<=cavalo;movimentos++){
-        while(movimentos<=2){
-            printf("Movimento CAVALO %d - BAIXO\n", movimentos);
-            movimentos++;
+    for(movimentos=1;movimentos<=cavalo;movimentos++){      //FOR PARA DEFINIR QUANTOS CICLOS
+        while(movimentos<=2){                               //WHILE PARA DEFINIR QUANTOS MOVIMENTOS
+            printf("Movimento CAVALO %d - BAIXO\n", movimentos); //PRINT COM O MOVIMENTO
+            movimentos++;                                        //INCREMENTO 
         }
-        printf("Movimento CAVALO %d - DIREITA\n", movimentos);
+        printf("Movimento CAVALO %d - DIREITA\n", movimentos); //MOVIMENTO PARA O LADO
     }
     return 0;
 }
