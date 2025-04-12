@@ -21,9 +21,10 @@ int main() {
 
 
     printf("\n");       //PULA LINHA PARA DIVIDIR APRESENTAÇÃO DE MOVIMENTOS
+    //FOR - MOVIMENTOS DA RAINHA
     for(movimentos=1;movimentos<=rainha;movimentos++){          //INICIALIZAÇÃO DA VÁRIAVEL CONTROLE, DEFINIÇÃO DE PARADA E INCREMENTO
         printf("Movimento Rainha %d - ESQUERDA\n", movimentos); //PRINT O TEXTO COM NÚMERO DO MOVIMENTO E DIREÇÃO
     }
-    
+
     return 0;
 }
