@@ -4,6 +4,7 @@ int main() {
  
     int torre = 5, bispo = 5, rainha = 8, cavalo = 3;       //VÁRIAVÉS PARA DEFINIR QUANTIDADE DE MOVIMENTOS
     int movimentos = 1;                         //VÁRIAVEL CONTROLE DE MOVIMENTOS E INCREMENTO
+    int pedro;
  
     //WHILE - MOVIMENTOS DA TORRE
     while(movimentos<=torre){                   //DEFININDO INICIO E CONDIÇÃO DE CONTROLE
